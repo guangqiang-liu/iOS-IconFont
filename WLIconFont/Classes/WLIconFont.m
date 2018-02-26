@@ -29,10 +29,10 @@ static NSString *_fontName;
         NSString *iconfontName = @"iconfont.ttf";
         // 获取当前的bundle
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-        // 获取当前bundle的名称
+        // 获取当前bundle的名称，这里的bundleName徐需要写死为WLIconFont，不然找不到包含字体文件的WLIconFont.bundle
         NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
         // 获取图片的路径
-        NSString *fontPath = [currentBundle pathForResource:iconfontName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
+        NSString *fontPath = [currentBundle pathForResource:iconfontName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle", @"WLIconFont"]];
         NSURL *fontFileUrl = [NSURL fileURLWithPath:fontPath];
         [self registerFontWithURL: fontFileUrl];
         font = [UIFont fontWithName:[self fontName] size:size];
@@ -49,10 +49,10 @@ static NSString *_fontName;
         NSString *iconfontName = @"iconfont.ttf";
         // 获取当前的bundle
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-        // 获取当前bundle的名称
+        // 获取当前bundle的名称，这里的bundleName徐需要写死为WLIconFont，不然找不到包含字体文件的WLIconFont.bundle
         NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
         // 获取图片的路径
-        NSString *fontPath = [currentBundle pathForResource:iconfontName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",currentBundleName]];
+        NSString *fontPath = [currentBundle pathForResource:iconfontName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle", @"WLIconFont"]];
         NSURL *fontFileUrl = [NSURL fileURLWithPath:fontPath];
         [self registerFontWithURL: fontFileUrl];
         font = [UIFont fontWithName:fontName size:fontSize];
