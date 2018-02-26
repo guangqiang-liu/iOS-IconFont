@@ -1,0 +1,6 @@
+framework module Pods_WLIconFont_Example {
+  umbrella header "Pods-WLIconFont_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

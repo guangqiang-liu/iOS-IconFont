@@ -1,0 +1,16 @@
+PODS:
+  - WLIconFont (0.1.0)
+
+DEPENDENCIES:
+  - WLIconFont (from `../`)
+
+EXTERNAL SOURCES:
+  WLIconFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WLIconFont: 1077f78c0a4d5e668a1efcea72226ade474847fd
+
+PODFILE CHECKSUM: 7c6f7c7b75a104df999949c5bd1df0e46e11e43f
+
+COCOAPODS: 1.4.0
