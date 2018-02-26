@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLIconFont_Example' do
+  pod 'WLIconFont', :path => '../'
+
+  target 'WLIconFont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
