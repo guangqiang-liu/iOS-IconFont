@@ -29,13 +29,13 @@
     // UIButton使用大小自适应行不通
     //    [test.titleLabel sizeToFit];
     [btn setTitleColor:[UIColor magentaColor] forState:UIControlStateNormal];
-    [btn setImage:[WLIconFontImage imageWithName:@"keyboard_o" size:23 color:[UIColor orangeColor]] forState:UIControlStateNormal];
+    [btn setImage:[WLIcon imageWithName:@"keyboard_o" size:23 color:[UIColor orangeColor]] forState:UIControlStateNormal];
     [self.view addSubview:btn];
     
     // 以Button的titleLable文字来展示字体
     UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeCustom];
     btn2.titleLabel.font = [UIFont fontWithName:@"iconfont" size:15];//设置label的字体
-    [btn2 setTitle: [WLIconFontImage matchIconCodeWithName:@"add_o"] forState:UIControlStateNormal];
+    [btn2 setTitle: [WLIcon matchIconCodeWithName:@"add_o"] forState:UIControlStateNormal];
     btn2.frame = CGRectMake(0, 120, 100, 30);
     btn2.backgroundColor = [UIColor redColor];
     [btn2 setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
@@ -44,7 +44,7 @@
     // UILable使用方式
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 180, 280, 40)];
     label.font = [UIFont fontWithName:@"iconfont" size:15]; //设置label的字体
-    label.text = [WLIconFontImage matchIconCodeWithName:@"play_o"];
+    label.text = [WLIcon matchIconCodeWithName:@"play_o"];
     label.textColor = [UIColor redColor];
     // lable根据内容自适应大小
     [label sizeToFit];
@@ -53,14 +53,14 @@
     // UILable的text文本和字体混合显示
     UILabel *label2 = [[UILabel alloc] initWithFrame: CGRectMake(0, 240, 280, 40)];
     label2.font = [UIFont fontWithName:@"iconfont" size:15];//设置label的字体
-    label2.text = [NSString stringWithFormat:@"这是用label显示的iconfont:   %@", [WLIconFontImage matchIconCodeWithName:@"person_s"]];
+    label2.text = [NSString stringWithFormat:@"这是用label显示的iconfont:   %@", [WLIcon matchIconCodeWithName:@"person_s"]];
     [self.view addSubview:label2];
 
     // UIImageView的使用
     UIImageView *img = [[UIImageView alloc] init];
     img.frame = CGRectMake(0, 300, 30, 30);
     img.backgroundColor = [UIColor purpleColor];
-    img.image = [WLIconFontImage imageWithName:@"keyboard_o" size:23 color:[UIColor magentaColor]];
+    img.image = [WLIcon imageWithName:@"keyboard_o" size:23 color:[UIColor magentaColor]];
     [self.view addSubview:img];
 }
 
