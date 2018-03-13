@@ -7,7 +7,8 @@
 //
 
 #import "WLViewController.h"
-#import "WLIconFontImage.h"
+#import "WLIcon.h"
+
 
 @interface WLViewController ()
 

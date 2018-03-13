@@ -1,17 +1,17 @@
 //
-//  WLIconFontImage.m
-//  IconFont
+//  WLIcon.m
+//  WLIconFont_Example
 //
-//  Created by 刘光强 on 2018/2/26.
+//  Created by 刘光强 on 2018/3/13.
 //  Copyright © 2018年 刘光强. All rights reserved.
 //
 
-#import "WLIconFontImage.h"
+#import "WLIcon.h"
 #import "WLIconFontConfig.h"
 #import "WLIconFontInfo.h"
 #import "UIImage+WLIconFont.h"
 
-@implementation WLIconFontImage
+@implementation WLIcon
 
 + (UIImage *)imageWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor {
     return [self imageWithName:iconName size:iconSize color:iconColor insets:UIEdgeInsetsZero backgroundColor:nil];
