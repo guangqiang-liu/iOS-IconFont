@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLIconFont'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'iOS中的IconFont字体私有库'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit', 'Foundation'
+  # s.frameworks = 'UIKit', 'MapKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
