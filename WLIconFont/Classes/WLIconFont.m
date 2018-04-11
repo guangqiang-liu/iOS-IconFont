@@ -27,11 +27,9 @@ static NSString *_fontName;
     if (!font) {
 //        NSURL *fontFileUrl = [[NSBundle mainBundle] URLForResource:[self fontName] withExtension:@"ttf"];
         NSString *iconfontName = @"iconfont.ttf";
-        // 获取当前的bundle
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
         // 获取当前bundle的名称，这里的bundleName徐需要写死为WLIconFont，不然找不到包含字体文件的WLIconFont.bundle
-        NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
-        // 获取图片的路径
+//        NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
         NSString *fontPath = [currentBundle pathForResource:iconfontName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle", @"WLIconFont"]];
         NSURL *fontFileUrl = [NSURL fileURLWithPath:fontPath];
         [self registerFontWithURL: fontFileUrl];
@@ -44,14 +42,8 @@ static NSString *_fontName;
 + (nullable UIFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize {
     UIFont *font = [UIFont fontWithName:fontName size:fontSize];
     if (!font) {
-//        NSURL *fontFileUrl = [[NSBundle mainBundle] URLForResource:fontName withExtension:@"ttf"];
-        
         NSString *iconfontName = @"iconfont.ttf";
-        // 获取当前的bundle
         NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-        // 获取当前bundle的名称，这里的bundleName徐需要写死为WLIconFont，不然找不到包含字体文件的WLIconFont.bundle
-        NSString *currentBundleName = currentBundle.infoDictionary[@"CFBundleName"];
-        // 获取图片的路径
         NSString *fontPath = [currentBundle pathForResource:iconfontName ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle", @"WLIconFont"]];
         NSURL *fontFileUrl = [NSURL fileURLWithPath:fontPath];
         [self registerFontWithURL: fontFileUrl];

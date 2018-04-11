@@ -29,7 +29,7 @@
     // UIButton使用大小自适应行不通
     //    [test.titleLabel sizeToFit];
     [btn setTitleColor:[UIColor magentaColor] forState:UIControlStateNormal];
-    [btn setImage:[WLIcon imageWithName:@"keyboard_o" size:23 color:[UIColor orangeColor]] forState:UIControlStateNormal];
+    [btn setImage:[WLIcon iconWithName:@"keyboard_o" size:23 color:[UIColor orangeColor]] forState:UIControlStateNormal];
     [self.view addSubview:btn];
     
     // 以Button的titleLable文字来展示字体
@@ -60,7 +60,7 @@
     UIImageView *img = [[UIImageView alloc] init];
     img.frame = CGRectMake(0, 300, 30, 30);
     img.backgroundColor = [UIColor purpleColor];
-    img.image = [WLIcon imageWithName:@"keyboard_o" size:23 color:[UIColor magentaColor]];
+    img.image = [WLIcon iconWithName:@"keyboard_o" size:23 color:[UIColor magentaColor]];
     [self.view addSubview:img];
 }
 

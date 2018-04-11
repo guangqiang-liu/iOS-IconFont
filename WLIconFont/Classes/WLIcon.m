@@ -13,19 +13,19 @@
 
 @implementation WLIcon
 
-+ (UIImage *)imageWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor {
-    return [self imageWithName:iconName size:iconSize color:iconColor insets:UIEdgeInsetsZero backgroundColor:nil];
++ (UIImage *)iconWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor {
+    return [self iconWithName:iconName size:iconSize color:iconColor insets:UIEdgeInsetsZero backgroundColor:nil];
 }
 
-+ (UIImage *)imageWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor insets:(UIEdgeInsets)iconInsets {
-    return [self imageWithName:iconName size:iconSize color:iconColor insets:iconInsets backgroundColor:nil];
++ (UIImage *)iconWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor insets:(UIEdgeInsets)iconInsets {
+    return [self iconWithName:iconName size:iconSize color:iconColor insets:iconInsets backgroundColor:nil];
 }
 
-+ (UIImage *)imageWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor backgroundColor:(UIColor *)iconBgColor {
-    return [self imageWithName:iconName size:iconSize color:iconColor insets:UIEdgeInsetsZero backgroundColor:iconBgColor];
++ (UIImage *)iconWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor backgroundColor:(UIColor *)iconBgColor {
+    return [self iconWithName:iconName size:iconSize color:iconColor insets:UIEdgeInsetsZero backgroundColor:iconBgColor];
 }
 
-+ (UIImage *)imageWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor insets:(UIEdgeInsets)iconInsets backgroundColor:(UIColor *)iconBgColor {
++ (UIImage *)iconWithName:(NSString *)iconName size:(CGFloat)iconSize color:(UIColor *)iconColor insets:(UIEdgeInsets)iconInsets backgroundColor:(UIColor *)iconBgColor {
     NSString *fontUnicode = [self matchIconCodeWithName:iconName];
     WLIconFontInfo *fontInfo = [WLIconFontInfo iconInfoWithIconName:fontUnicode iconSize:iconSize iconColor:iconColor iconInsets:iconInsets iconBackgroundColor:iconBgColor];
     NSString *fontname = [WLIconFontConfig fontName];
