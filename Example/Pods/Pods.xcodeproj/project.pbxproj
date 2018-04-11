@@ -18,6 +18,10 @@
 		51D1B5D3451918F4E2AADA99B4822CCB /* UIImage+WLIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A72DA1AD6602D82021EF315785F33 /* UIImage+WLIconFont.m */; };
 		5B7EC73E162BD08E0BEE4AF4A805FB15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
 		95A0E3428D3D582FCB146FE35B4754AC /* Pods-WLIconFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24995E5FEC7D8CCD0AEDBC63913BE72 /* Pods-WLIconFont_Tests-dummy.m */; };
+		9C7CF22C207E35D000524D5A /* test1.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7CF22A207E35D000524D5A /* test1.h */; };
+		9C7CF22D207E35D000524D5A /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF22B207E35D000524D5A /* test1.m */; };
+		9C7CF230207E35DA00524D5A /* test2.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7CF22E207E35DA00524D5A /* test2.h */; };
+		9C7CF231207E35DA00524D5A /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7CF22F207E35DA00524D5A /* test2.m */; };
 		C56B36E90F5ACA4EFAED2BBC193C4B6C /* WLIconFontConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 21359841234541837E7B5B3F6928CEBB /* WLIconFontConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CD1B5E173C597C0BD834FFBC71731C5E /* WLIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F43AAA4AB1561C9572AA55277C80CB /* WLIcon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D51D27DEB53163CBDF64324F45FA7088 /* WLIconFontInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7704E849BC685C33EA70F79ABCB68174 /* WLIconFontInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -60,19 +64,23 @@
 		58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7308C2772ABE5D949A3702BE7444D675 /* Pods-WLIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLIconFont_Example-dummy.m"; sourceTree = "<group>"; };
 		7704E849BC685C33EA70F79ABCB68174 /* WLIconFontInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLIconFontInfo.h; path = WLIconFont/Classes/WLIconFontInfo.h; sourceTree = "<group>"; };
-		77A9C603328DA7064185BFC35BE1A07E /* WLIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLIconFont.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		77A9C603328DA7064185BFC35BE1A07E /* WLIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WLIconFont.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		831ED7BEAE748A245B86B4AE579692A9 /* Pods-WLIconFont_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLIconFont_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8AB8059D7B875EE1E9E77D71D4ED9BF9 /* Pods-WLIconFont_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLIconFont_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98F1850216BC628BB90A307ED7FF1D38 /* Pods-WLIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C7CF22A207E35D000524D5A /* test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		9C7CF22B207E35D000524D5A /* test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
+		9C7CF22E207E35DA00524D5A /* test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		9C7CF22F207E35DA00524D5A /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 		A051920E68F7148F9AB1E708EB27873C /* Pods-WLIconFont_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLIconFont_Tests-resources.sh"; sourceTree = "<group>"; };
 		ACD8781C526297F2927ED7916D96DE11 /* Pods-WLIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD97766E77365DDC56F0796948379ACC /* Pods-WLIconFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLIconFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B49081C52A118985AE56632D86041528 /* WLIconFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WLIconFont.bundle; path = "WLIconFont-WLIconFont.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4A1B3614B447FC170629940F48B3254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B49081C52A118985AE56632D86041528 /* WLIconFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLIconFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A1B3614B447FC170629940F48B3254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B8436533CEC029288113A22556AA9D09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		B8F1B6D517C47E55E8C5A8F9CA565B41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BAEA0517C9CD52A89A007027D6B84E29 /* libPods-WLIconFont_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WLIconFont_Example.a"; path = "libPods-WLIconFont_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F1B6D517C47E55E8C5A8F9CA565B41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BAEA0517C9CD52A89A007027D6B84E29 /* libPods-WLIconFont_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLIconFont_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD82124696CC3B9BF6AE201D175C849 /* WLIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLIconFont-dummy.m"; sourceTree = "<group>"; };
 		BE1940987FB6466A858112FBB0C4FDE2 /* UIImage+WLIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+WLIconFont.h"; path = "WLIconFont/Classes/UIImage+WLIconFont.h"; sourceTree = "<group>"; };
 		C24995E5FEC7D8CCD0AEDBC63913BE72 /* Pods-WLIconFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLIconFont_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -81,10 +89,10 @@
 		DF918E8A4ED978A8C7DAA2AD183264D0 /* Pods-WLIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E13F4F6E05FE0AD34604E2DDF6023C66 /* WLIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLIconFont.xcconfig; sourceTree = "<group>"; };
 		E33B26033414DFA669E69DB52F830F02 /* ResourceBundle-WLIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WLIconFont-Info.plist"; sourceTree = "<group>"; };
-		E72742F4D34217C94FFFBA1ACC2509AE /* libWLIconFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWLIconFont.a; path = libWLIconFont.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE0312CE6C74F319E5498531496DDD96 /* libPods-WLIconFont_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WLIconFont_Tests.a"; path = "libPods-WLIconFont_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72742F4D34217C94FFFBA1ACC2509AE /* libWLIconFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLIconFont.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0312CE6C74F319E5498531496DDD96 /* libPods-WLIconFont_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLIconFont_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AFB7DB9DC2FA3C23844D6AD787D486 /* WLIconFontConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLIconFontConfig.m; path = WLIconFont/Classes/WLIconFontConfig.m; sourceTree = "<group>"; };
-		F718C68686052BC5A3778D67E67BA8C3 /* iconfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = iconfont.ttf; path = WLIconFont/Assets/iconfont.ttf; sourceTree = "<group>"; };
+		F718C68686052BC5A3778D67E67BA8C3 /* iconfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = iconfont.ttf; path = WLIconFont/Assets/iconfont.ttf; sourceTree = "<group>"; };
 		FA4C7C8D08CEBC4CB885650CB89632E5 /* WLIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLIconFont.m; path = WLIconFont/Classes/WLIconFont.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -181,6 +189,7 @@
 		4C7AE2BADC394D850D728DB66AA65791 /* WLIconFont */ = {
 			isa = PBXGroup;
 			children = (
+				9C7CF229207E35B600524D5A /* Test */,
 				BE1940987FB6466A858112FBB0C4FDE2 /* UIImage+WLIconFont.h */,
 				1B5A72DA1AD6602D82021EF315785F33 /* UIImage+WLIconFont.m */,
 				11F43AAA4AB1561C9572AA55277C80CB /* WLIcon.h */,
@@ -243,6 +252,18 @@
 			path = "Target Support Files/Pods-WLIconFont_Example";
 			sourceTree = "<group>";
 		};
+		9C7CF229207E35B600524D5A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9C7CF22A207E35D000524D5A /* test1.h */,
+				9C7CF22B207E35D000524D5A /* test1.m */,
+				9C7CF22E207E35DA00524D5A /* test2.h */,
+				9C7CF22F207E35DA00524D5A /* test2.m */,
+			);
+			name = Test;
+			path = WLIconFont/Classes/Test;
+			sourceTree = "<group>";
+		};
 		D1DE7CB66D7FCA963B2DFB5EBB64BE01 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,7 +291,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7CF22C207E35D000524D5A /* test1.h in Headers */,
 				2EC79C1A610418ED618975599632D93E /* UIImage+WLIconFont.h in Headers */,
+				9C7CF230207E35DA00524D5A /* test2.h in Headers */,
 				CD1B5E173C597C0BD834FFBC71731C5E /* WLIcon.h in Headers */,
 				F4C769BEBEE49CDDE879BF450F13CAB5 /* WLIconFont.h in Headers */,
 				C56B36E90F5ACA4EFAED2BBC193C4B6C /* WLIconFontConfig.h in Headers */,
@@ -413,7 +436,9 @@
 				FE448766C1431AA2A1CCCC8115AA2019 /* WLIcon.m in Sources */,
 				0C00BCE475223DC990B0F22EC9A1CAB0 /* WLIconFont-dummy.m in Sources */,
 				FB42C564294EB77247BEEB2A96D1A2F4 /* WLIconFont.m in Sources */,
+				9C7CF231207E35DA00524D5A /* test2.m in Sources */,
 				0D561B34993A692D8EA50C8B6A7B229C /* WLIconFontConfig.m in Sources */,
+				9C7CF22D207E35D000524D5A /* test1.m in Sources */,
 				DC57100EF413E2ACA7E498C9C19E2DE8 /* WLIconFontInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
