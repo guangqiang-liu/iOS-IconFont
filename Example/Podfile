@@ -6,6 +6,5 @@ target 'WLIconFont_Example' do
   target 'WLIconFont_Tests' do
     inherit! :search_paths
 
-    
   end
 end

@@ -35,8 +35,4 @@ TODO: Add long description of the pod here.
    s.resource_bundles = {
      'WLIconFont' => ['WLIconFont/Assets/*']
    }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
