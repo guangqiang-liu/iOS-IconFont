@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLIconFont'
-  s.version          = '0.1.8'
+  s.version          = '0.0.1'
   s.summary          = 'iOS中的IconFont字体私有库'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://www.qianbaocard.com'
+  s.homepage         = 'https://github.com/guangqiang-liu/GQIconFont'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guangqiang' => '1126756952@qq.com' }
-  s.source           = { :git => 'git@gitlab.qianbaocard.org:iOS/tool/WLIconFont.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:guangqiang-liu/GQIconFont.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
